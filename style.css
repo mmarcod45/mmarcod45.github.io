@@ -1,8 +1,75 @@
 body {
-	background-color: #e6f7ff;
+	background-color: black;
 }
 
 main {
 	border: 1px solid;
 	border-radius: 25px;
+	background-image: url(paint-brick-wall.jpg);
+}
+
+h1 {
+	background-color: yellow;
+}
+
+h2 {
+	background-color: white;
+}
+
+form {
+	padding: 1em;
+}
+
+fieldset {
+	padding: 1em;
+}
+
+#mailinglist {
+	padding: 1em;
+}
+
+.img1 {
+	margin: 5% 20% 5% 20%; 
+}
+
+.img2 {
+	margin: 5% 20% 5% 20%;
+}
+
+.img3 {
+	margin: 5% 20% 5% 20%;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+}
+
+.img1 p {
+	background-color: black;
+	font-family: lucida console;
+	margin-right: 70%;
+	padding-left: 10px;
+	color: white;
+}
+
+.img2 p {
+	background-color: black;
+	font-family: lucida console;
+	margin-right: 60%;
+	padding-left: 10px;
+	color: white;
+}
+
+.img3 p {
+	background-color: black;
+	font-family: lucida console;
+	margin-right: 82%;
+	padding-left: 10px;
+	color: white;
+}
+
+.bottom {
+	background-color: #c8c8c8;
+	border-radius: 8px;
 }
