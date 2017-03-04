@@ -26,6 +26,7 @@ fieldset {
 
 #mailinglist {
 	padding: 1em;
+	margin-bottom: 2px;
 }
 
 .img1 {
@@ -72,4 +73,33 @@ footer p {
 .bottom {
 	background-color: #c8c8c8;
 	border-radius: 8px;
+}
+
+nav a:visited {
+	color: green;
+}
+
+footer a:visited {
+	color: green;
+}
+
+@media screen and (max-width: 517px) {
+    .img1 p {
+        color: yellow;
+        text-shadow: 1px 1px black;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .img2 p {
+        color: yellow;
+        text-shadow: 1px 1px black;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .img3 p {
+        color: yellow;
+        text-shadow: 1px 1px black;
+    }
 }
